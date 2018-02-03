@@ -26,4 +26,5 @@ namespace BlackWaspCustomCommandsDemo
             DataContext = new NameList();
         }
     }
+       
 }
