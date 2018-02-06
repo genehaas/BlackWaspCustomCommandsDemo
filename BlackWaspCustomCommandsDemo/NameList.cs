@@ -60,6 +60,8 @@ namespace BlackWaspCustomCommandsDemo
 
         public ObservableCollection<string> Names { get; private set; }
 
+
+
         private void OnPropertyChanged(string property)
         {
             if (PropertyChanged != null)
@@ -67,8 +69,9 @@ namespace BlackWaspCustomCommandsDemo
                 PropertyChanged(this, new PropertyChangedEventArgs(property));
             }
         }
-
         public event PropertyChangedEventHandler PropertyChanged;
+
+
 
         InfoCommand _infoCommand = new InfoCommand();
 
@@ -77,12 +80,14 @@ namespace BlackWaspCustomCommandsDemo
             get { return _infoCommand; }
         }
 
+
         AddCommand _addNameCommand = new AddCommand();
 
         public AddCommand AddNameCommand
         {
             get { return _addNameCommand; }
         }
+
 
         RemoveCommand _removeNameCommand = new RemoveCommand();
 

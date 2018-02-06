@@ -54,6 +54,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FakeClass2ForGit.cs" />
+    <Compile Include="FakeClass3ForGit.cs" />
     <Compile Include="FakeClassForGit.cs" />
     <Compile Include="RemoveCommand.cs" />
     <Page Include="MainWindow.xaml">
